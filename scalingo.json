@@ -1,0 +1,16 @@
+{
+  "name": "Telescope",
+  "description": "An open-source community app built with Meteor",
+  "repository": "https://github.com/TelescopeJS/Telescope/",
+  "logo": "http://www.telescopeapp.org/images/logo.png",
+  "keywords": ["meteor", "social", "community"],
+  "env": {
+    "ROOT_URL": {
+      "description": "The full URL of your Telescope app.",
+      "generator": "url"
+    }
+  },
+  "addons": [
+    "scalingo-mongodb"
+  ]
+}
